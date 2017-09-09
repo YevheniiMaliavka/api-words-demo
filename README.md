@@ -21,17 +21,17 @@ Here are all the pieces of data for a custom foreign vocabulary:
 
 Dividing the descriptors into representations
 
-![Data representations](images/data-representations.png)
+![Data representations](docs/data-representations.png)
 
 
 ### 2. Draw a State Diagram
 A simple basic state diagram of the resources and their link relations
-![State Diagram](images/state-diagram.png)
+![State Diagram](docs/state-diagram.png)
 
 ### 3. Reconcile Names
 The schema.org does not offer suitable data type. Therefore all the semantic descriptors will be described in a profile.
 
-![State Diagram](images/reconciled.png)
+![State Diagram](docs/reconciled.png)
 
 ### 4. Choose a Media Type
 The [Collection+JSON](https://github.com/collection-json/spec) is a JSON-based read/write hypermedia-type designed to support management and querying of simple collections.
