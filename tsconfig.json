@@ -3,7 +3,8 @@
         "watch": true,
         "module":"commonjs",
         "noImplicitAny": true,
-        "outDir": "dist"
+        "outDir": "dist",
+        "lib": ["es2015"]
     },
     "exclude": ["node_modules"]
 }
