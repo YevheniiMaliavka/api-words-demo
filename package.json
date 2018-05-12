@@ -2,10 +2,10 @@
   "name": "api-words-demo",
   "version": "1.0.0",
   "description": "Basic REST API HTTP implementation for learning purposes",
-  "main": "dist/server.js",
+  "main": "src/server.js",
   "scripts": {
     "start": "node ./src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,17 +20,15 @@
   "author": "Yevhenii Maliavka",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YevheniiMaliavka/api-words-demo/issues"
+    "url": "https://github.com/akvamalin/api-words-demo/issues"
   },
-  "homepage": "https://github.com/YevheniiMaliavka/api-words-demo#readme",
+  "homepage": "https://github.com/akvamalin/api-words-demo#readme",
   "dependencies": {
     "body-parser": "^1.18.0",
     "express": "^4.15.4",
     "mongoose": "^4.11.10"
   },
   "devDependencies": {
-    "@types/body-parser": "^1.16.5",
-    "@types/express": "^4.0.37",
-    "@types/mongoose": "^4.7.21"
+    "nodemon": "^1.17.4"
   }
 }
